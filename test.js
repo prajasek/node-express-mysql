@@ -27,9 +27,11 @@ let c = connection;
 // })
 
 // c.query(`INSERT INTO test3 (ID, NAME, WEIGHT)
-//          SELECT ID, NAME, AGE FROM test1
+//          VALUES (102, 'NEW123', 102)
 //         ;`, (err, results, fields)=> {
 //                 if (err) console.log("Error Inserting Data.", err);
 //                 else console.log(results, fields);
 // })
     
+
+module.exports = c;
